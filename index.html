@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>POCeid Releases</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: rgb(255, 49, 49, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: sans-serif;
+            color: #61666c;
+            height: 100%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        #flex-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+
+        h1 {
+            font-size: 24pt;
+        }
+
+        h2 {
+            margin-bottom: 0px;
+            font-size: 14pt;
+        }
+
+        a {
+            color: #61666c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #61666c;
+            text-decoration: none;
+        }
+
+        #download-buttons {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            text-align: start;
+            width: 100%;
+            max-width: 250px;
+        }
+
+        #download {
+            font-size: 14pt;
+            font-weight: 300;
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        #download:hover {
+            background-color: whitesmoke;
+            -moz-box-shadow: 5px 5px 5px 0px lightgrey;
+            -webkit-box-shadow: 5px 5px 5px 0px lightgrey;
+            box-shadow: 5px 5px 5px 0px lightgrey;
+        }
+
+        #download>span {
+            font-size: 10pt;
+        }
+
+        #download>img {
+            vertical-align: middle;
+            margin-right: 10px;
+            height: 50px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="flex-container">
+        <h1>POCeid Releases</h1>
+        <div id="download-buttons">
+            <h2>1.0.0 (1)</h2>
+			<a id="download" href="itms-services://?action=download-manifest&url=https://christophschwizer.ch/POCeid/manifest.plist"><img src="AppIcon.png">Install App</a>
+        </div>
+    </div>
+</body>
+
+</html>
